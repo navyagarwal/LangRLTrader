@@ -1,0 +1,779 @@
+===============================
+460217.pbshpc
+aice006.hpc.iitd.ac.in
+===============================
+conda env activating
+Using cpu device
+------------------------------------
+| time/                 |          |
+|    fps                | 99       |
+|    iterations         | 100      |
+|    time_elapsed       | 5        |
+|    total_timesteps    | 500      |
+| train/                |          |
+|    entropy_loss       | -119     |
+|    explained_variance | -0.0713  |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 99       |
+|    policy_loss        | 388      |
+|    std                | 1        |
+|    value_loss         | 13       |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 104      |
+|    iterations         | 200      |
+|    time_elapsed       | 9        |
+|    total_timesteps    | 1000     |
+| train/                |          |
+|    entropy_loss       | -119     |
+|    explained_variance | 0.0655   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 199      |
+|    policy_loss        | 116      |
+|    std                | 1        |
+|    value_loss         | 1.78     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 106      |
+|    iterations         | 300      |
+|    time_elapsed       | 14       |
+|    total_timesteps    | 1500     |
+| train/                |          |
+|    entropy_loss       | -119     |
+|    explained_variance | 0.0265   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 299      |
+|    policy_loss        | -749     |
+|    std                | 1        |
+|    value_loss         | 56.7     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 107      |
+|    iterations         | 400      |
+|    time_elapsed       | 18       |
+|    total_timesteps    | 2000     |
+| train/                |          |
+|    entropy_loss       | -119     |
+|    explained_variance | 4.65e-06 |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 399      |
+|    policy_loss        | 68.9     |
+|    std                | 1        |
+|    value_loss         | 1.06     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 107      |
+|    iterations         | 500      |
+|    time_elapsed       | 23       |
+|    total_timesteps    | 2500     |
+| train/                |          |
+|    entropy_loss       | -119     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 499      |
+|    policy_loss        | -213     |
+|    std                | 1        |
+|    value_loss         | 3.61     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 108      |
+|    iterations         | 600      |
+|    time_elapsed       | 27       |
+|    total_timesteps    | 3000     |
+| train/                |          |
+|    entropy_loss       | -119     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 599      |
+|    policy_loss        | 1.2e+03  |
+|    std                | 1        |
+|    value_loss         | 140      |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 108      |
+|    iterations         | 700      |
+|    time_elapsed       | 32       |
+|    total_timesteps    | 3500     |
+| train/                |          |
+|    entropy_loss       | -119     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 699      |
+|    policy_loss        | 82.8     |
+|    std                | 1        |
+|    value_loss         | 1.39     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 108      |
+|    iterations         | 800      |
+|    time_elapsed       | 36       |
+|    total_timesteps    | 4000     |
+| train/                |          |
+|    entropy_loss       | -119     |
+|    explained_variance | 0.0174   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 799      |
+|    policy_loss        | 104      |
+|    std                | 1        |
+|    value_loss         | 2.96     |
+------------------------------------
+-------------------------------------
+| time/                 |           |
+|    fps                | 108       |
+|    iterations         | 900       |
+|    time_elapsed       | 41        |
+|    total_timesteps    | 4500      |
+| train/                |           |
+|    entropy_loss       | -119      |
+|    explained_variance | 0         |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 899       |
+|    policy_loss        | -1.18e+03 |
+|    std                | 1         |
+|    value_loss         | 125       |
+-------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 1000     |
+|    time_elapsed       | 45       |
+|    total_timesteps    | 5000     |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 999      |
+|    policy_loss        | 250      |
+|    std                | 1.01     |
+|    value_loss         | 5.02     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 1100     |
+|    time_elapsed       | 50       |
+|    total_timesteps    | 5500     |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 1099     |
+|    policy_loss        | -396     |
+|    std                | 1.01     |
+|    value_loss         | 14.1     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 1200     |
+|    time_elapsed       | 54       |
+|    total_timesteps    | 6000     |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 1199     |
+|    policy_loss        | 137      |
+|    std                | 1.01     |
+|    value_loss         | 62.7     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 1300     |
+|    time_elapsed       | 59       |
+|    total_timesteps    | 6500     |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 1299     |
+|    policy_loss        | 484      |
+|    std                | 1        |
+|    value_loss         | 19       |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 1400     |
+|    time_elapsed       | 64       |
+|    total_timesteps    | 7000     |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | -0.0625  |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 1399     |
+|    policy_loss        | 228      |
+|    std                | 1        |
+|    value_loss         | 3.89     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 1500     |
+|    time_elapsed       | 68       |
+|    total_timesteps    | 7500     |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | -0.0142  |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 1499     |
+|    policy_loss        | 1.36e+03 |
+|    std                | 1.01     |
+|    value_loss         | 170      |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 1600     |
+|    time_elapsed       | 73       |
+|    total_timesteps    | 8000     |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0.00079  |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 1599     |
+|    policy_loss        | -473     |
+|    std                | 1.01     |
+|    value_loss         | 36.8     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 1700     |
+|    time_elapsed       | 77       |
+|    total_timesteps    | 8500     |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 1699     |
+|    policy_loss        | -58.6    |
+|    std                | 1.01     |
+|    value_loss         | 1.92     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 1800     |
+|    time_elapsed       | 82       |
+|    total_timesteps    | 9000     |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 1799     |
+|    policy_loss        | -255     |
+|    std                | 1.01     |
+|    value_loss         | 4.88     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 1900     |
+|    time_elapsed       | 86       |
+|    total_timesteps    | 9500     |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 1899     |
+|    policy_loss        | -154     |
+|    std                | 1.01     |
+|    value_loss         | 2.7      |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 2000     |
+|    time_elapsed       | 91       |
+|    total_timesteps    | 10000    |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 1999     |
+|    policy_loss        | -38.8    |
+|    std                | 1.01     |
+|    value_loss         | 1.81     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 2100     |
+|    time_elapsed       | 95       |
+|    total_timesteps    | 10500    |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 2099     |
+|    policy_loss        | -168     |
+|    std                | 1.01     |
+|    value_loss         | 3.5      |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 2200     |
+|    time_elapsed       | 100      |
+|    total_timesteps    | 11000    |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 2199     |
+|    policy_loss        | 39.3     |
+|    std                | 1.01     |
+|    value_loss         | 0.866    |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 2300     |
+|    time_elapsed       | 104      |
+|    total_timesteps    | 11500    |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 2299     |
+|    policy_loss        | -199     |
+|    std                | 1.01     |
+|    value_loss         | 6.26     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 2400     |
+|    time_elapsed       | 109      |
+|    total_timesteps    | 12000    |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 5.96e-08 |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 2399     |
+|    policy_loss        | 258      |
+|    std                | 1.01     |
+|    value_loss         | 5.78     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 2500     |
+|    time_elapsed       | 113      |
+|    total_timesteps    | 12500    |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 2499     |
+|    policy_loss        | -112     |
+|    std                | 1.01     |
+|    value_loss         | 1.52     |
+------------------------------------
+-------------------------------------
+| time/                 |           |
+|    fps                | 109       |
+|    iterations         | 2600      |
+|    time_elapsed       | 118       |
+|    total_timesteps    | 13000     |
+| train/                |           |
+|    entropy_loss       | -120      |
+|    explained_variance | -1.19e-07 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 2599      |
+|    policy_loss        | -145      |
+|    std                | 1.01      |
+|    value_loss         | 1.44      |
+-------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 2700     |
+|    time_elapsed       | 122      |
+|    total_timesteps    | 13500    |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 2699     |
+|    policy_loss        | 103      |
+|    std                | 1.01     |
+|    value_loss         | 1.08     |
+------------------------------------
+day: 1508, episode: 10
+begin_total_asset: 1000000.00
+end_total_asset: 2497706.54
+total_reward: 1497706.54
+total_cost: 27455.46
+total_trades: 71933
+Sharpe: 1.015
+=================================
+------------------------------------
+| time/                 |          |
+|    fps                | 109      |
+|    iterations         | 2800     |
+|    time_elapsed       | 127      |
+|    total_timesteps    | 14000    |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 1.19e-07 |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 2799     |
+|    policy_loss        | -86.2    |
+|    std                | 1.01     |
+|    value_loss         | 1.75     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 2900     |
+|    time_elapsed       | 131      |
+|    total_timesteps    | 14500    |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 2899     |
+|    policy_loss        | -71.5    |
+|    std                | 1.01     |
+|    value_loss         | 1.46     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 3000     |
+|    time_elapsed       | 136      |
+|    total_timesteps    | 15000    |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 2999     |
+|    policy_loss        | 43.7     |
+|    std                | 1.01     |
+|    value_loss         | 1.66     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 3100     |
+|    time_elapsed       | 140      |
+|    total_timesteps    | 15500    |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 3099     |
+|    policy_loss        | 7.3      |
+|    std                | 1.01     |
+|    value_loss         | 1.37     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 3200     |
+|    time_elapsed       | 145      |
+|    total_timesteps    | 16000    |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 3199     |
+|    policy_loss        | -259     |
+|    std                | 1.01     |
+|    value_loss         | 5.74     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 3300     |
+|    time_elapsed       | 149      |
+|    total_timesteps    | 16500    |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 1.19e-07 |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 3299     |
+|    policy_loss        | -449     |
+|    std                | 1.01     |
+|    value_loss         | 15.4     |
+------------------------------------
+-------------------------------------
+| time/                 |           |
+|    fps                | 110       |
+|    iterations         | 3400      |
+|    time_elapsed       | 154       |
+|    total_timesteps    | 17000     |
+| train/                |           |
+|    entropy_loss       | -120      |
+|    explained_variance | -1.19e-07 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 3399      |
+|    policy_loss        | 204       |
+|    std                | 1.02      |
+|    value_loss         | 4.77      |
+-------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 3500     |
+|    time_elapsed       | 158      |
+|    total_timesteps    | 17500    |
+| train/                |          |
+|    entropy_loss       | -120     |
+|    explained_variance | 5.96e-08 |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 3499     |
+|    policy_loss        | 271      |
+|    std                | 1.02     |
+|    value_loss         | 5.84     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 3600     |
+|    time_elapsed       | 163      |
+|    total_timesteps    | 18000    |
+| train/                |          |
+|    entropy_loss       | -121     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 3599     |
+|    policy_loss        | 98.6     |
+|    std                | 1.02     |
+|    value_loss         | 1.21     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 3700     |
+|    time_elapsed       | 167      |
+|    total_timesteps    | 18500    |
+| train/                |          |
+|    entropy_loss       | -121     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 3699     |
+|    policy_loss        | -441     |
+|    std                | 1.02     |
+|    value_loss         | 13.5     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 3800     |
+|    time_elapsed       | 172      |
+|    total_timesteps    | 19000    |
+| train/                |          |
+|    entropy_loss       | -121     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 3799     |
+|    policy_loss        | 107      |
+|    std                | 1.02     |
+|    value_loss         | 4.03     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 3900     |
+|    time_elapsed       | 176      |
+|    total_timesteps    | 19500    |
+| train/                |          |
+|    entropy_loss       | -121     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 3899     |
+|    policy_loss        | 516      |
+|    std                | 1.02     |
+|    value_loss         | 21       |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 4000     |
+|    time_elapsed       | 181      |
+|    total_timesteps    | 20000    |
+| train/                |          |
+|    entropy_loss       | -121     |
+|    explained_variance | 1.19e-07 |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 3999     |
+|    policy_loss        | 47.7     |
+|    std                | 1.02     |
+|    value_loss         | 0.301    |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 4100     |
+|    time_elapsed       | 185      |
+|    total_timesteps    | 20500    |
+| train/                |          |
+|    entropy_loss       | -121     |
+|    explained_variance | 0.0322   |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 4099     |
+|    policy_loss        | -541     |
+|    std                | 1.02     |
+|    value_loss         | 34.3     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 4200     |
+|    time_elapsed       | 190      |
+|    total_timesteps    | 21000    |
+| train/                |          |
+|    entropy_loss       | -121     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 4199     |
+|    policy_loss        | 19.4     |
+|    std                | 1.02     |
+|    value_loss         | 5.42     |
+------------------------------------
+-------------------------------------
+| time/                 |           |
+|    fps                | 110       |
+|    iterations         | 4300      |
+|    time_elapsed       | 194       |
+|    total_timesteps    | 21500     |
+| train/                |           |
+|    entropy_loss       | -121      |
+|    explained_variance | -1.19e-07 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 4299      |
+|    policy_loss        | 127       |
+|    std                | 1.02      |
+|    value_loss         | 4.45      |
+-------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 4400     |
+|    time_elapsed       | 199      |
+|    total_timesteps    | 22000    |
+| train/                |          |
+|    entropy_loss       | -121     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 4399     |
+|    policy_loss        | 148      |
+|    std                | 1.02     |
+|    value_loss         | 10.4     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 4500     |
+|    time_elapsed       | 203      |
+|    total_timesteps    | 22500    |
+| train/                |          |
+|    entropy_loss       | -121     |
+|    explained_variance | 1.19e-07 |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 4499     |
+|    policy_loss        | 62.8     |
+|    std                | 1.02     |
+|    value_loss         | 0.476    |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 4600     |
+|    time_elapsed       | 208      |
+|    total_timesteps    | 23000    |
+| train/                |          |
+|    entropy_loss       | -121     |
+|    explained_variance | 5.96e-08 |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 4599     |
+|    policy_loss        | 183      |
+|    std                | 1.02     |
+|    value_loss         | 5.06     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 4700     |
+|    time_elapsed       | 212      |
+|    total_timesteps    | 23500    |
+| train/                |          |
+|    entropy_loss       | -121     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 4699     |
+|    policy_loss        | 335      |
+|    std                | 1.02     |
+|    value_loss         | 9.27     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 4800     |
+|    time_elapsed       | 217      |
+|    total_timesteps    | 24000    |
+| train/                |          |
+|    entropy_loss       | -121     |
+|    explained_variance | 5.96e-08 |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 4799     |
+|    policy_loss        | -307     |
+|    std                | 1.02     |
+|    value_loss         | 7.27     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 4900     |
+|    time_elapsed       | 221      |
+|    total_timesteps    | 24500    |
+| train/                |          |
+|    entropy_loss       | -121     |
+|    explained_variance | 1.79e-07 |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 4899     |
+|    policy_loss        | 201      |
+|    std                | 1.02     |
+|    value_loss         | 3.31     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 5000     |
+|    time_elapsed       | 226      |
+|    total_timesteps    | 25000    |
+| train/                |          |
+|    entropy_loss       | -121     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 4999     |
+|    policy_loss        | -199     |
+|    std                | 1.02     |
+|    value_loss         | 4.79     |
+------------------------------------
+------------------------------------
+| time/                 |          |
+|    fps                | 110      |
+|    iterations         | 5100     |
+|    time_elapsed       | 230      |
+|    total_timesteps    | 25500    |
+| train/                |          |
+|    entropy_loss       | -121     |
+|    explained_variance | 0        |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 5099     |
+|    policy_loss        | 166      |
+|    std                | 1.02     |
+|    value_loss         | 4.44     |
+------------------------------------
