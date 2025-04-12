@@ -1,0 +1,70 @@
+===============================
+460117.pbshpc
+cice003.hpc.iitd.ac.in
+===============================
+conda env activating
+Using cpu device
+-----------------------------
+| time/              |      |
+|    fps             | 104  |
+|    iterations      | 1    |
+|    time_elapsed    | 19   |
+|    total_timesteps | 2048 |
+-----------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 101         |
+|    iterations           | 2           |
+|    time_elapsed         | 40          |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.062083565 |
+|    clip_fraction        | 0.518       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -119        |
+|    explained_variance   | -0.00508    |
+|    learning_rate        | 0.0003      |
+|    loss                 | 7.33        |
+|    n_updates            | 10          |
+|    policy_gradient_loss | -0.0386     |
+|    std                  | 1           |
+|    value_loss           | 22.4        |
+-----------------------------------------
+----------------------------------------
+| time/                   |            |
+|    fps                  | 101        |
+|    iterations           | 3          |
+|    time_elapsed         | 60         |
+|    total_timesteps      | 6144       |
+| train/                  |            |
+|    approx_kl            | 0.08571351 |
+|    clip_fraction        | 0.494      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -119       |
+|    explained_variance   | 0.00798    |
+|    learning_rate        | 0.0003     |
+|    loss                 | 8.54       |
+|    n_updates            | 20         |
+|    policy_gradient_loss | -0.036     |
+|    std                  | 1          |
+|    value_loss           | 16.3       |
+----------------------------------------
+----------------------------------------
+| time/                   |            |
+|    fps                  | 100        |
+|    iterations           | 4          |
+|    time_elapsed         | 81         |
+|    total_timesteps      | 8192       |
+| train/                  |            |
+|    approx_kl            | 0.14051399 |
+|    clip_fraction        | 0.583      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -119       |
+|    explained_variance   | 0.0108     |
+|    learning_rate        | 0.0003     |
+|    loss                 | 12.5       |
+|    n_updates            | 30         |
+|    policy_gradient_loss | -0.0132    |
+|    std                  | 0.999      |
+|    value_loss           | 23.4       |
+----------------------------------------

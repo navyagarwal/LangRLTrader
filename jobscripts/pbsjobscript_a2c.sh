@@ -16,8 +16,8 @@
 ##PBS -l software=
 # After job starts, must goto working directory. 
 # $PBS_O_WORKDIR is the directory from where the job is fired. 
-#PBS -o logs/sac_output.log
-#PBS -e logs/sac_error.log
+#PBS -o logs/a2c_output.log
+#PBS -e logs/a2c_error.log
 echo "==============================="
 echo $PBS_JOBID
 cat $PBS_NODEFILE
