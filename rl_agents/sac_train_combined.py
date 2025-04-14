@@ -27,7 +27,7 @@ date_to_idx = {date: idx for idx, date in enumerate(unique_dates)}
 train['new_idx'] = train['date'].map(date_to_idx)
 train = train.set_index('new_idx')
 train['llm_sentiment'].fillna(0, inplace=True)
-train['llm_risk'].fillna(0, inplace=True)  # Ensure llm_risk is filled
+train['llm_risk'].fillna(0, inplace=True) 
 
 # Environment setup
 stock_dimension = len(train.tic.unique())
