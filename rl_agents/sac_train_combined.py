@@ -17,7 +17,7 @@ from stable_baselines3 import SAC
 from stable_baselines3.common.env_util import make_vec_env
 
 #Load dataset
-train = pd.read_csv("data/train_data_2013_2018.csv")
+train = pd.read_csv("data/train_data_deepseek_risk_2013_2018.csv")
 train = train.drop('Unnamed: 0', axis=1)
 
 

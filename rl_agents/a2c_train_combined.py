@@ -14,7 +14,7 @@ from utils.env import StockTradingEnv
 
 check_and_make_directories([TRAINED_MODEL_DIR])
 
-train = pd.read_csv("data/train_data_2013_2018.csv")
+train = pd.read_csv("data/train_data_deepseek_risk_2013_2018.csv")
 train.drop('Unnamed: 0', axis=1, inplace=True)
 
 unique_dates = train['date'].unique()

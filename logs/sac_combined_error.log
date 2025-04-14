@@ -1,0 +1,27 @@
+/scratch/ee/phd/eez228470/nllb_600m/navya/temp/greengraphs/rl_agents/sac_train_combined.py:29: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  train['llm_sentiment'].fillna(0, inplace=True)
+/scratch/ee/phd/eez228470/nllb_600m/navya/temp/greengraphs/rl_agents/sac_train_combined.py:30: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  train['llm_risk'].fillna(0, inplace=True)
+Traceback (most recent call last):
+  File "/scratch/ee/phd/eez228470/nllb_600m/navya/temp/greengraphs/rl_agents/sac_train_combined.py", line 52, in <module>
+    env_train, _ = e_train_gym.get_sb_env()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/ee/phd/eez228470/nllb_600m/navya/temp/greengraphs/rl_agents/utils/env.py", line 587, in get_sb_env
+    obs = e.reset()
+          ^^^^^^^^^
+  File "/home/ee/phd/eez228470/anaconda3/envs/greengraphs/lib/python3.11/site-packages/stable_baselines3/common/vec_env/dummy_vec_env.py", line 79, in reset
+    self._save_obs(env_idx, obs)
+  File "/home/ee/phd/eez228470/anaconda3/envs/greengraphs/lib/python3.11/site-packages/stable_baselines3/common/vec_env/dummy_vec_env.py", line 109, in _save_obs
+    self.buf_obs[key][env_idx] = obs
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^
+ValueError: could not broadcast input array from shape (925,) into shape (1009,)
