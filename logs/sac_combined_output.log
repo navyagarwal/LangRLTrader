@@ -1,5 +1,120 @@
 ===============================
-463000.pbshpc
+472676.pbshpc
 cice003.hpc.iitd.ac.in
 ===============================
 conda env activating
+Using cpu device
+---------------------------------
+| time/              |          |
+|    episodes        | 4        |
+|    fps             | 22       |
+|    time_elapsed    | 265      |
+|    total_timesteps | 6036     |
+| train/             |          |
+|    actor_loss      | -528     |
+|    critic_loss     | 161      |
+|    ent_coef        | 0.287    |
+|    ent_coef_loss   | -167     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 5035     |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 8        |
+|    fps             | 20       |
+|    time_elapsed    | 578      |
+|    total_timesteps | 12072    |
+| train/             |          |
+|    actor_loss      | -699     |
+|    critic_loss     | 166      |
+|    ent_coef        | 0.0529   |
+|    ent_coef_loss   | -242     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 11071    |
+---------------------------------
+day: 1508, episode: 10
+begin_total_asset: 1000000.00
+end_total_asset: 2755092.08
+total_reward: 1755092.08
+total_cost: 4618.08
+total_trades: 78936
+Sharpe: 1.101
+=================================
+---------------------------------
+| time/              |          |
+|    episodes        | 12       |
+|    fps             | 20       |
+|    time_elapsed    | 896      |
+|    total_timesteps | 18108    |
+| train/             |          |
+|    actor_loss      | -580     |
+|    critic_loss     | 31.3     |
+|    ent_coef        | 0.0113   |
+|    ent_coef_loss   | -141     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 17107    |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 16       |
+|    fps             | 19       |
+|    time_elapsed    | 1216     |
+|    total_timesteps | 24144    |
+| train/             |          |
+|    actor_loss      | -446     |
+|    critic_loss     | 12.7     |
+|    ent_coef        | 0.00442  |
+|    ent_coef_loss   | -2.34    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 23143    |
+---------------------------------
+day: 1508, episode: 20
+begin_total_asset: 1000000.00
+end_total_asset: 2984751.14
+total_reward: 1984751.14
+total_cost: 1981.87
+total_trades: 92439
+Sharpe: 1.117
+=================================
+---------------------------------
+| time/              |          |
+|    episodes        | 20       |
+|    fps             | 11       |
+|    time_elapsed    | 2726     |
+|    total_timesteps | 30180    |
+| train/             |          |
+|    actor_loss      | -343     |
+|    critic_loss     | 19.7     |
+|    ent_coef        | 0.0025   |
+|    ent_coef_loss   | -5.78    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 29179    |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 24       |
+|    fps             | 10       |
+|    time_elapsed    | 3360     |
+|    total_timesteps | 36216    |
+| train/             |          |
+|    actor_loss      | -273     |
+|    critic_loss     | 6.23     |
+|    ent_coef        | 0.00183  |
+|    ent_coef_loss   | -3.08    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 35215    |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 28       |
+|    fps             | 11       |
+|    time_elapsed    | 3691     |
+|    total_timesteps | 42252    |
+| train/             |          |
+|    actor_loss      | -208     |
+|    critic_loss     | 9.22     |
+|    ent_coef        | 0.00151  |
+|    ent_coef_loss   | 4.07     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 41251    |
+---------------------------------

@@ -31,7 +31,7 @@ train['llm_risk'].fillna(0, inplace=True)
 
 # Environment setup
 stock_dimension = len(train.tic.unique())
-state_space = 1 + 2 * stock_dimension + (1 + len(INDICATORS)) * stock_dimension
+state_space = 1 + 2 * stock_dimension + (2 + len(INDICATORS)) * stock_dimension
 buy_cost_list = sell_cost_list = [0.001] * stock_dimension
 num_stock_shares = [0] * stock_dimension
 
