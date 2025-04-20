@@ -74,3 +74,506 @@ Sharpe: 1.121
 |    learning_rate   | 0.0003   |
 |    n_updates       | 24043    |
 ---------------------------------
+day: 1508, episode: 20
+begin_total_asset: 1000000.00
+end_total_asset: 2532347.47
+total_reward: 1532347.47
+total_cost: 1947.39
+total_trades: 52437
+Sharpe: 0.975
+=================================
+---------------------------------
+| time/              |          |
+|    episodes        | 20       |
+|    fps             | 20       |
+|    time_elapsed    | 1466     |
+|    total_timesteps | 30180    |
+| train/             |          |
+|    actor_loss      | -737     |
+|    critic_loss     | 28.1     |
+|    ent_coef        | 0.0115   |
+|    ent_coef_loss   | 2.6      |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 30079    |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 24       |
+|    fps             | 20       |
+|    time_elapsed    | 1771     |
+|    total_timesteps | 36216    |
+| train/             |          |
+|    actor_loss      | -525     |
+|    critic_loss     | 23.9     |
+|    ent_coef        | 0.0075   |
+|    ent_coef_loss   | 0.0998   |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 36115    |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 28       |
+|    fps             | 20       |
+|    time_elapsed    | 2074     |
+|    total_timesteps | 42252    |
+| train/             |          |
+|    actor_loss      | -392     |
+|    critic_loss     | 13.3     |
+|    ent_coef        | 0.00517  |
+|    ent_coef_loss   | 1.43     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 42151    |
+---------------------------------
+day: 1508, episode: 30
+begin_total_asset: 1000000.00
+end_total_asset: 2626083.04
+total_reward: 1626083.04
+total_cost: 2457.65
+total_trades: 58171
+Sharpe: 0.966
+=================================
+---------------------------------
+| time/              |          |
+|    episodes        | 32       |
+|    fps             | 20       |
+|    time_elapsed    | 2374     |
+|    total_timesteps | 48288    |
+| train/             |          |
+|    actor_loss      | -269     |
+|    critic_loss     | 18.6     |
+|    ent_coef        | 0.00355  |
+|    ent_coef_loss   | 6.01     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 48187    |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 36       |
+|    fps             | 20       |
+|    time_elapsed    | 2675     |
+|    total_timesteps | 54324    |
+| train/             |          |
+|    actor_loss      | -203     |
+|    critic_loss     | 5.98     |
+|    ent_coef        | 0.00283  |
+|    ent_coef_loss   | -3.99    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 54223    |
+---------------------------------
+day: 1508, episode: 40
+begin_total_asset: 1000000.00
+end_total_asset: 2827146.19
+total_reward: 1827146.19
+total_cost: 2134.38
+total_trades: 56605
+Sharpe: 1.057
+=================================
+---------------------------------
+| time/              |          |
+|    episodes        | 40       |
+|    fps             | 20       |
+|    time_elapsed    | 2975     |
+|    total_timesteps | 60360    |
+| train/             |          |
+|    actor_loss      | -131     |
+|    critic_loss     | 7.34     |
+|    ent_coef        | 0.00216  |
+|    ent_coef_loss   | -6.19    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 60259    |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 44       |
+|    fps             | 20       |
+|    time_elapsed    | 3275     |
+|    total_timesteps | 66396    |
+| train/             |          |
+|    actor_loss      | -85.2    |
+|    critic_loss     | 6.59     |
+|    ent_coef        | 0.00165  |
+|    ent_coef_loss   | 1.66     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 66295    |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 48       |
+|    fps             | 20       |
+|    time_elapsed    | 3609     |
+|    total_timesteps | 72432    |
+| train/             |          |
+|    actor_loss      | -51      |
+|    critic_loss     | 3.03     |
+|    ent_coef        | 0.00143  |
+|    ent_coef_loss   | -2.73    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 72331    |
+---------------------------------
+day: 1508, episode: 50
+begin_total_asset: 1000000.00
+end_total_asset: 2960506.27
+total_reward: 1960506.27
+total_cost: 1851.27
+total_trades: 53820
+Sharpe: 1.184
+=================================
+---------------------------------
+| time/              |          |
+|    episodes        | 52       |
+|    fps             | 19       |
+|    time_elapsed    | 3943     |
+|    total_timesteps | 78468    |
+| train/             |          |
+|    actor_loss      | -30      |
+|    critic_loss     | 4.21     |
+|    ent_coef        | 0.00133  |
+|    ent_coef_loss   | 8.12     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 78367    |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 56       |
+|    fps             | 19       |
+|    time_elapsed    | 4271     |
+|    total_timesteps | 84504    |
+| train/             |          |
+|    actor_loss      | -12.1    |
+|    critic_loss     | 1.59     |
+|    ent_coef        | 0.00111  |
+|    ent_coef_loss   | 5.74     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 84403    |
+---------------------------------
+day: 1508, episode: 60
+begin_total_asset: 1000000.00
+end_total_asset: 2795198.38
+total_reward: 1795198.38
+total_cost: 2106.95
+total_trades: 50921
+Sharpe: 1.166
+=================================
+---------------------------------
+| time/              |          |
+|    episodes        | 60       |
+|    fps             | 19       |
+|    time_elapsed    | 4612     |
+|    total_timesteps | 90540    |
+| train/             |          |
+|    actor_loss      | -9.87    |
+|    critic_loss     | 1.17     |
+|    ent_coef        | 0.000924 |
+|    ent_coef_loss   | 2.67     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 90439    |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 64       |
+|    fps             | 19       |
+|    time_elapsed    | 4965     |
+|    total_timesteps | 96576    |
+| train/             |          |
+|    actor_loss      | -3.04    |
+|    critic_loss     | 0.824    |
+|    ent_coef        | 0.000722 |
+|    ent_coef_loss   | -2.65    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 96475    |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 68       |
+|    fps             | 19       |
+|    time_elapsed    | 5324     |
+|    total_timesteps | 102612   |
+| train/             |          |
+|    actor_loss      | -0.519   |
+|    critic_loss     | 0.553    |
+|    ent_coef        | 0.000663 |
+|    ent_coef_loss   | -4.31    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 102511   |
+---------------------------------
+day: 1508, episode: 70
+begin_total_asset: 1000000.00
+end_total_asset: 2708136.95
+total_reward: 1708136.95
+total_cost: 1790.47
+total_trades: 48623
+Sharpe: 1.107
+=================================
+---------------------------------
+| time/              |          |
+|    episodes        | 72       |
+|    fps             | 19       |
+|    time_elapsed    | 5717     |
+|    total_timesteps | 108648   |
+| train/             |          |
+|    actor_loss      | 4.99     |
+|    critic_loss     | 0.591    |
+|    ent_coef        | 0.000589 |
+|    ent_coef_loss   | 8.54     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 108547   |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 76       |
+|    fps             | 18       |
+|    time_elapsed    | 6111     |
+|    total_timesteps | 114684   |
+| train/             |          |
+|    actor_loss      | 6.68     |
+|    critic_loss     | 0.48     |
+|    ent_coef        | 0.000541 |
+|    ent_coef_loss   | -0.669   |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 114583   |
+---------------------------------
+day: 1508, episode: 80
+begin_total_asset: 1000000.00
+end_total_asset: 2742323.14
+total_reward: 1742323.14
+total_cost: 2163.80
+total_trades: 50404
+Sharpe: 1.111
+=================================
+---------------------------------
+| time/              |          |
+|    episodes        | 80       |
+|    fps             | 18       |
+|    time_elapsed    | 6494     |
+|    total_timesteps | 120720   |
+| train/             |          |
+|    actor_loss      | 7.94     |
+|    critic_loss     | 0.785    |
+|    ent_coef        | 0.0005   |
+|    ent_coef_loss   | -0.72    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 120619   |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 84       |
+|    fps             | 18       |
+|    time_elapsed    | 6858     |
+|    total_timesteps | 126756   |
+| train/             |          |
+|    actor_loss      | 8.01     |
+|    critic_loss     | 0.512    |
+|    ent_coef        | 0.000483 |
+|    ent_coef_loss   | -7.11    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 126655   |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 88       |
+|    fps             | 18       |
+|    time_elapsed    | 7222     |
+|    total_timesteps | 132792   |
+| train/             |          |
+|    actor_loss      | 8.69     |
+|    critic_loss     | 0.406    |
+|    ent_coef        | 0.000418 |
+|    ent_coef_loss   | 1.34     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 132691   |
+---------------------------------
+day: 1508, episode: 90
+begin_total_asset: 1000000.00
+end_total_asset: 2887499.28
+total_reward: 1887499.28
+total_cost: 2426.92
+total_trades: 56236
+Sharpe: 1.165
+=================================
+---------------------------------
+| time/              |          |
+|    episodes        | 92       |
+|    fps             | 18       |
+|    time_elapsed    | 7586     |
+|    total_timesteps | 138828   |
+| train/             |          |
+|    actor_loss      | 7.62     |
+|    critic_loss     | 0.326    |
+|    ent_coef        | 0.000372 |
+|    ent_coef_loss   | 10.6     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 138727   |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 96       |
+|    fps             | 18       |
+|    time_elapsed    | 7952     |
+|    total_timesteps | 144864   |
+| train/             |          |
+|    actor_loss      | 7.57     |
+|    critic_loss     | 0.284    |
+|    ent_coef        | 0.000359 |
+|    ent_coef_loss   | -1.45    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 144763   |
+---------------------------------
+day: 1508, episode: 100
+begin_total_asset: 1000000.00
+end_total_asset: 3059405.16
+total_reward: 2059405.16
+total_cost: 2546.60
+total_trades: 61912
+Sharpe: 1.207
+=================================
+---------------------------------
+| time/              |          |
+|    episodes        | 100      |
+|    fps             | 18       |
+|    time_elapsed    | 8324     |
+|    total_timesteps | 150900   |
+| train/             |          |
+|    actor_loss      | 6.15     |
+|    critic_loss     | 0.275    |
+|    ent_coef        | 0.000337 |
+|    ent_coef_loss   | -2.37    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 150799   |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 104      |
+|    fps             | 17       |
+|    time_elapsed    | 8721     |
+|    total_timesteps | 156936   |
+| train/             |          |
+|    actor_loss      | 5.49     |
+|    critic_loss     | 0.244    |
+|    ent_coef        | 0.000326 |
+|    ent_coef_loss   | -2.69    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 156835   |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 108      |
+|    fps             | 17       |
+|    time_elapsed    | 9118     |
+|    total_timesteps | 162972   |
+| train/             |          |
+|    actor_loss      | 5.36     |
+|    critic_loss     | 0.22     |
+|    ent_coef        | 0.000328 |
+|    ent_coef_loss   | -7.83    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 162871   |
+---------------------------------
+day: 1508, episode: 110
+begin_total_asset: 1000000.00
+end_total_asset: 2914011.14
+total_reward: 1914011.14
+total_cost: 2354.61
+total_trades: 63393
+Sharpe: 1.199
+=================================
+---------------------------------
+| time/              |          |
+|    episodes        | 112      |
+|    fps             | 17       |
+|    time_elapsed    | 9515     |
+|    total_timesteps | 169008   |
+| train/             |          |
+|    actor_loss      | 4.43     |
+|    critic_loss     | 0.232    |
+|    ent_coef        | 0.000304 |
+|    ent_coef_loss   | -3.72    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 168907   |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 116      |
+|    fps             | 17       |
+|    time_elapsed    | 9915     |
+|    total_timesteps | 175044   |
+| train/             |          |
+|    actor_loss      | 4.09     |
+|    critic_loss     | 0.258    |
+|    ent_coef        | 0.000302 |
+|    ent_coef_loss   | 4.83     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 174943   |
+---------------------------------
+day: 1508, episode: 120
+begin_total_asset: 1000000.00
+end_total_asset: 2953441.70
+total_reward: 1953441.70
+total_cost: 2288.71
+total_trades: 61508
+Sharpe: 1.214
+=================================
+---------------------------------
+| time/              |          |
+|    episodes        | 120      |
+|    fps             | 17       |
+|    time_elapsed    | 10314    |
+|    total_timesteps | 181080   |
+| train/             |          |
+|    actor_loss      | 3.15     |
+|    critic_loss     | 0.165    |
+|    ent_coef        | 0.000305 |
+|    ent_coef_loss   | -1.68    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 180979   |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 124      |
+|    fps             | 17       |
+|    time_elapsed    | 10713    |
+|    total_timesteps | 187116   |
+| train/             |          |
+|    actor_loss      | 2.36     |
+|    critic_loss     | 0.161    |
+|    ent_coef        | 0.00029  |
+|    ent_coef_loss   | -5.2     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 187015   |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 128      |
+|    fps             | 17       |
+|    time_elapsed    | 11114    |
+|    total_timesteps | 193152   |
+| train/             |          |
+|    actor_loss      | 0.862    |
+|    critic_loss     | 0.177    |
+|    ent_coef        | 0.000287 |
+|    ent_coef_loss   | 4.14     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 193051   |
+---------------------------------
+day: 1508, episode: 130
+begin_total_asset: 1000000.00
+end_total_asset: 2860797.41
+total_reward: 1860797.41
+total_cost: 2335.06
+total_trades: 61213
+Sharpe: 1.190
+=================================
+---------------------------------
+| time/              |          |
+|    episodes        | 132      |
+|    fps             | 17       |
+|    time_elapsed    | 11514    |
+|    total_timesteps | 199188   |
+| train/             |          |
+|    actor_loss      | 0.647    |
+|    critic_loss     | 0.128    |
+|    ent_coef        | 0.000269 |
+|    ent_coef_loss   | 3.91     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 199087   |
+---------------------------------
+Training finished and saved in trained_models/agent_sac_risk.pth
