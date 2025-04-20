@@ -548,3 +548,26 @@ Sharpe: 1.196
 |    learning_rate   | 0.0003   |
 |    n_updates       | 192151   |
 ---------------------------------
+day: 1508, episode: 130
+begin_total_asset: 1000000.00
+end_total_asset: 3170646.40
+total_reward: 2170646.40
+total_cost: 1785.64
+total_trades: 79092
+Sharpe: 1.220
+=================================
+---------------------------------
+| time/              |          |
+|    episodes        | 132      |
+|    fps             | 9        |
+|    time_elapsed    | 21283    |
+|    total_timesteps | 199188   |
+| train/             |          |
+|    actor_loss      | -2.78    |
+|    critic_loss     | 0.164    |
+|    ent_coef        | 0.000145 |
+|    ent_coef_loss   | 5.52     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 198187   |
+---------------------------------
+Training finished and saved in trained_models/agent_sac_deepseek_combined.pth
