@@ -8,7 +8,7 @@ from stable_baselines3.common.env_util import make_vec_env
 
 from finrl.config import INDICATORS, TRAINED_MODEL_DIR
 from finrl.main import check_and_make_directories
-from utils.env import StockTradingEnv
+from utils.env_combined import StockTradingEnv
 
 
 
