@@ -1,0 +1,34 @@
+===============================
+472704.pbshpc
+cice009.hpc.iitd.ac.in
+===============================
+conda env activating
+Using cpu device
+---------------------------------
+| time/              |          |
+|    episodes        | 4        |
+|    fps             | 26       |
+|    time_elapsed    | 230      |
+|    total_timesteps | 6036     |
+| train/             |          |
+|    actor_loss      | -616     |
+|    critic_loss     | 148      |
+|    ent_coef        | 0.294    |
+|    ent_coef_loss   | -169     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 5035     |
+---------------------------------
+---------------------------------
+| time/              |          |
+|    episodes        | 8        |
+|    fps             | 23       |
+|    time_elapsed    | 503      |
+|    total_timesteps | 12072    |
+| train/             |          |
+|    actor_loss      | -822     |
+|    critic_loss     | 57.5     |
+|    ent_coef        | 0.0535   |
+|    ent_coef_loss   | -252     |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 11071    |
+---------------------------------
