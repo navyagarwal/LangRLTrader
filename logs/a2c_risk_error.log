@@ -1,7 +1,43 @@
-/scratch/ee/phd/eez228470/nllb_600m/navya/temp/greengraphs/rl-agents/a2c_train_risk.py:26: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+Traceback (most recent call last):
+  File "/scratch/ee/phd/eez228470/nllb_600m/navya/temp/greengraphs/rl_agents/a2c_train_risk.py", line 63, in <module>
+    model.learn(total_timesteps=200000)
+  File "/home/ee/phd/eez228470/anaconda3/envs/greengraphs/lib/python3.11/site-packages/stable_baselines3/a2c/a2c.py", line 201, in learn
+    return super().learn(
+           ^^^^^^^^^^^^^^
+  File "/home/ee/phd/eez228470/anaconda3/envs/greengraphs/lib/python3.11/site-packages/stable_baselines3/common/on_policy_algorithm.py", line 324, in learn
+    continue_training = self.collect_rollouts(self.env, callback, self.rollout_buffer, n_rollout_steps=self.n_steps)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ee/phd/eez228470/anaconda3/envs/greengraphs/lib/python3.11/site-packages/stable_baselines3/common/on_policy_algorithm.py", line 202, in collect_rollouts
+    actions, values, log_probs = self.policy(obs_tensor)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ee/phd/eez228470/anaconda3/envs/greengraphs/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ee/phd/eez228470/anaconda3/envs/greengraphs/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ee/phd/eez228470/anaconda3/envs/greengraphs/lib/python3.11/site-packages/stable_baselines3/common/policies.py", line 654, in forward
+    distribution = self._get_action_dist_from_latent(latent_pi)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ee/phd/eez228470/anaconda3/envs/greengraphs/lib/python3.11/site-packages/stable_baselines3/common/policies.py", line 694, in _get_action_dist_from_latent
+    return self.action_dist.proba_distribution(mean_actions, self.log_std)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ee/phd/eez228470/anaconda3/envs/greengraphs/lib/python3.11/site-packages/stable_baselines3/common/distributions.py", line 164, in proba_distribution
+    self.distribution = Normal(mean_actions, action_std)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ee/phd/eez228470/anaconda3/envs/greengraphs/lib/python3.11/site-packages/torch/distributions/normal.py", line 59, in __init__
+    super().__init__(batch_shape, validate_args=validate_args)
+  File "/home/ee/phd/eez228470/anaconda3/envs/greengraphs/lib/python3.11/site-packages/torch/distributions/distribution.py", line 71, in __init__
+    raise ValueError(
+ValueError: Expected parameter loc (Tensor of shape (1, 84)) of distribution Normal(loc: torch.Size([1, 84]), scale: torch.Size([1, 84])) to satisfy the constraint Real(), but found invalid values:
+tensor([[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan,
+         nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan,
+         nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan,
+         nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]])
+/scratch/ee/phd/eez228470/nllb_600m/navya/temp/greengraphs/rl_agents/a2c_train_risk.py:27: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
 The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
 
 For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
 
 
-  train['llm_sentiment'].fillna(0, inplace=True)
+  train['llm_risk'].fillna(0, inplace=True)

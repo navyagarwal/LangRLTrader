@@ -25,4 +25,4 @@ cd $PBS_O_WORKDIR
 echo "conda env activating"
 source /home/apps/skeleton/condaBaseEnv
 conda activate /home/ee/phd/eez228470/anaconda3/envs/greengraphs
-python3 rl-agents/a2c_train_risk.py
+python3 rl_agents/a2c_train_risk.py

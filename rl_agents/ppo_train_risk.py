@@ -4,7 +4,7 @@
 import pandas as pd
 from finrl.config import INDICATORS, TRAINED_MODEL_DIR
 from finrl.main import check_and_make_directories
-from utils.env import StockTradingEnv
+from utils.env_risk import StockTradingEnv
 
 check_and_make_directories([TRAINED_MODEL_DIR])
 
@@ -23,7 +23,8 @@ unique_dates = train['date'].unique()
 date_to_idx = {date: idx for idx, date in enumerate(unique_dates)}
 train['new_idx'] = train['date'].map(date_to_idx)
 train = train.set_index('new_idx')
-train['llm_sentiment'].fillna(0, inplace=True)
+# train['llm_sentiment'].fillna(0, inplace=True)
+train['llm_risk'].fillna(0, inplace=True)
 
 # Environment setup
 stock_dimension = len(train.tic.unique())

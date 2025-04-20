@@ -25,7 +25,7 @@ cd $PBS_O_WORKDIR
 echo "conda env activating"
 source /home/apps/skeleton/condaBaseEnv
 conda activate /home/ee/phd/eez228470/anaconda3/envs/greengraphs
-python3 rl-agents/sac_train_risk.py
+python3 rl_agents/sac_train_risk.py
 
 #job 
 #time -p mpirun -n {n*m} executable
